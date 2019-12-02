@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;;
+}
+
+header{
+    text-align: center;
+    background-color: #106900;
+    padding: 20px 0 20px 0;
+    color: honeydew;
+    text-shadow: 2px 2px 2px #212121;
+    border-bottom: #212121 solid 2px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+h1{
+    margin: 0;
+}
+
+i{
+    cursor: pointer;
+}
+
+#resultBlock{
+    display: none;
+}
+
+#gameDisplay{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0 20px 0;
+}
+
+.block {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0 20px 0;
+}
+
+#trash, #imgResult{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #106900;
+}
+
+#trashTxt,.text{
+    width: 700px;
+    height: 300px;
+    border: 2px solid #106900;
+}
+
+#trashDisplay{
+    text-align: center;
+    font-size: 150px;
+}
+#yellowTrash{
+    color : #E0D42B;
+}
+
+#greenTrash{
+    color : #0B2E13;
+}
+
+#blueTrash{
+    color : #16193D;
+}
+
+#brownTrash{
+    color : #69471E;
+}
+
+#button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.myButton {
+    background-color: #106900;
+    border:1px solid #212121;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow: 0 1px 0 #212121;
+}
+.myButton:hover {
+    background-color: #139700;
+}
+
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+h3{
+    color: #106900;
+    font-size: 25px;
+    margin: 30px 25px 30px 25px
+}
+
+#dspResultat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 120px;
+}
+
+
+

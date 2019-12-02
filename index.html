@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mission Trier !</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <script src="fa.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Mission : Tri séléctif !</h1>
+    </header>
+    <div id="main">
+        <div id="gameDisplay">
+            <div id="trash">
+                <img src= "images/Tri.jpg" id="imgTrash">
+            </div>
+            <div id="trashTxt">
+                <h3 id="text">Bienvenue dans "Mission Tri!", le but de ce jeu est de vous sensibiliser au tri séléctif. Les règles sont simples, il suffit de cliquer sur la poubelle que vous
+                pensez être optimale pour jeter le dechet affiché.</h3>
+            </div>
+        </div>
+        <div id="trashDisplay">
+            <i class="fas fa-trash" id="yellowTrash"></i>
+            <i class="fas fa-trash" id="greenTrash"></i>
+            <i class="fas fa-trash" id="blueTrash"></i>
+            <i class="fas fa-trash" id="brownTrash"></i>
+        </div>
+        <div id="button">
+            <a class="myButton" id="play">Jouer</a>
+        </div>
+    </div>
+    <div id="resultBlock">
+        <div class="block">
+            <img src= "images/Tri.jpg" id="imgResult">
+            <div class="text">
+                <h3 id ="rText">Voici les résultats, cliquez sur Résultats pour découvrir votre score ainsi que des conseils pour mieux trier.</h3>
+            </div>
+        </div>
+        <div id="dspResultat">
+            <a class="myButton" id="dspResults">Résultats</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
